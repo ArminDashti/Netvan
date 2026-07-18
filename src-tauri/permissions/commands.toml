@@ -1,0 +1,9 @@
+[[permission]]
+identifier = "allow-rpc"
+description = "Allow RPC invoke"
+commands.allow = ["rpc"]
+
+[[permission]]
+identifier = "allow-get-data-dir"
+description = "Allow reading data directory path"
+commands.allow = ["get_data_dir"]
