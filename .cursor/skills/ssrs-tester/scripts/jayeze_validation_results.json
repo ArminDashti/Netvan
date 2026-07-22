@@ -1,0 +1,176 @@
+{
+  "test_context": {
+    "AzTarikh": "14040325",
+    "TaTarikh": "14040328",
+    "AzTarikhGozaresh": "14040325",
+    "TaTarikhGozaresh": "14040328",
+    "Report_Time": "14040328",
+    "ccMarkazPakhsh": "34",
+    "ccTaminkonandeh": ""
+  },
+  "note": "No RDL uses exact header 'تعداد جوایز'; matched 'تعداد جایزه' / TedadJayezeh",
+  "page_total_reports": 43,
+  "reports_with_column_local_rdl": 11,
+  "results": [
+    {
+      "report": "Sales_ForoshKala_Jayeze_BeTafkikKala",
+      "report_path": "/PakhshReports/Sales_ForoshKala_Jayeze_BeTafkikKala",
+      "column_header": [
+        "تعداد جایزه"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "dataset": "DSKharidMoshtarianBeKol_JavayezInternetiTaminKonandeh",
+      "proc_or_sql": "Sales.rpt_ForoshKala_Jayezeh_BeTafkikKala",
+      "rendered_total": "323495",
+      "db_total": "323495.0",
+      "rendered_rows": 941,
+      "db_rows": 2458,
+      "status": "PASS"
+    },
+    {
+      "report": "Sales_KharidMoshtarianNesbatBeKol_ForoshandeganKala",
+      "report_path": "/PakhshReports/Sales_KharidMoshtarianNesbatBeKol_ForoshandeganKala",
+      "column_header": [
+        "تعداد جایزه"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "dataset": "DsKharidMoshtarianNesbatBeKol_kalaForoshandegan",
+      "proc_or_sql": "Sales.rpt_KharidMoshtarianNesbatBeKol_ForoshandeganKala",
+      "rendered_total": "0",
+      "db_total": "0",
+      "rendered_rows": 0,
+      "db_rows": 10128,
+      "status": "PASS"
+    },
+    {
+      "report": "Sales_KharidMoshtarianNesbatBeKol_ForoshandeganKala_WithOutHeader",
+      "report_path": "/PakhshReports/Sales_KharidMoshtarianNesbatBeKol_ForoshandeganKala_WithOutHeader",
+      "column_header": [
+        "تعداد جایزه"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "dataset": "DsKharidMoshtarianNesbatBeKol_kalaForoshandegan",
+      "proc_or_sql": "Sales.rpt_KharidMoshtarianNesbatBeKol_ForoshandeganKala",
+      "rendered_total": "0",
+      "db_total": "0",
+      "rendered_rows": 0,
+      "db_rows": 10128,
+      "status": "PASS"
+    },
+    {
+      "report": "Sales_KharidMoshtarianNesbatBeKol_GorohKala",
+      "report_path": "/PakhshReports/Sales_KharidMoshtarianNesbatBeKol_GorohKala",
+      "column_header": [
+        "تعداد جایزه"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "dataset": "DsKharidMoshtarianNesbatBeKolKala",
+      "proc_or_sql": "Sales.rpt_KharidMoshtarianNesbatBeKolGorohKala",
+      "rendered_total": "361309956",
+      "db_total": "0",
+      "rendered_rows": 2,
+      "db_rows": 56,
+      "status": "MISMATCH",
+      "delta": "361309956"
+    },
+    {
+      "report": "Sales_KharidMoshtarianNesbatBeKol_JavayezInternetiTaminKonandeh",
+      "report_path": "/PakhshReports/Sales_KharidMoshtarianNesbatBeKol_JavayezInternetiTaminKonandeh",
+      "column_header": [
+        "تعداد جایزه"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "dataset": "DSKharidMoshtarianBeKol_JavayezInternetiTaminKonandeh",
+      "proc_or_sql": "Sales.rpt_KharidMoshtarianNesbatBeKolKala_JavayezInternetiTaminKonandeh",
+      "rendered_total": "1",
+      "db_total": "1.0",
+      "rendered_rows": 1,
+      "db_rows": 30,
+      "status": "PASS"
+    },
+    {
+      "report": "Sales_KharidMoshtarianNesbatBeKol_Kala",
+      "report_path": "/PakhshReports/Sales_KharidMoshtarianNesbatBeKol_Kala",
+      "column_header": [
+        "تعداد جایزه"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "dataset": "DsKharidMoshtarianNesbatBeKolKala",
+      "proc_or_sql": "Sales.rpt_KharidMoshtarianNesbatBeKolKala",
+      "rendered_total": "26826",
+      "db_total": "26826.0",
+      "rendered_rows": 450,
+      "db_rows": 2991,
+      "status": "PASS"
+    },
+    {
+      "report": "Sales_KharidMoshtarianNesbatBeKol_KalaMojodi",
+      "report_path": "/PakhshReports/Sales_KharidMoshtarianNesbatBeKol_KalaMojodi",
+      "column_header": [
+        "تعداد جایزه"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "dataset": "dsKharidMoshtarianNesbatBeKolKala",
+      "proc_or_sql": "Sales.rpt_KharidMoshtarianNesbatBeKolKala",
+      "rendered_total": "26826",
+      "db_total": "26826.0",
+      "rendered_rows": 450,
+      "db_rows": 2991,
+      "status": "PASS"
+    },
+    {
+      "report": "Sales_KharidMoshtarianNesbatBeKol_KalaNew",
+      "report_path": "/PakhshReports/Sales_KharidMoshtarianNesbatBeKol_KalaNew",
+      "column_header": [
+        "تعداد جایزه",
+        "تعداد جایزه دستی"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "dataset": "dsKharidMoshtarianNesbatBeKolKala",
+      "proc_or_sql": "Sales.rpt_KharidMoshtarianNesbatBeKolKala",
+      "rendered_total": "0",
+      "db_total": "26826.0",
+      "rendered_rows": 0,
+      "db_rows": 2991,
+      "status": "MISMATCH",
+      "delta": "-26826.0"
+    },
+    {
+      "report": "Sales_KharidMoshtarianNesbatBeKol_Kala_TajmieMarakez",
+      "report_path": "/PakhshReports/Sales_KharidMoshtarianNesbatBeKol_Kala_TajmieMarakez",
+      "column_header": [
+        "تعداد جایزه"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "dataset": "DsKharidMoshtarianNesbatBeKolKala",
+      "proc_or_sql": "Sales.rpt_KharidMoshtarianNesbatBeKolKala",
+      "rendered_total": "26826",
+      "db_total": "26826.0",
+      "rendered_rows": 450,
+      "db_rows": 2991,
+      "status": "PASS"
+    },
+    {
+      "report": "Sales_KharidMoshtarianNesbatBeKol_MarkazPakhshKala",
+      "report_path": "/PakhshReports/Sales_KharidMoshtarianNesbatBeKol_MarkazPakhshKala",
+      "column_header": [
+        "تعداد جایزه"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "dataset": "DsKharidMoshtarianNesbatBeKolKala",
+      "proc_or_sql": "Sales.rpt_KharidMoshtarianNesbatBeKolKala",
+      "status": "RENDER_ERROR",
+      "error": "Invoke-WebRequest: C:\\Users\\a.dashti\\AppData\\Local\\Temp\\tmpxv3c0jcd.ps1:4\nLine |\n   4 |  $r = Invoke-WebRequest -Uri $uri -UseDefaultCredentials -AllowUnencry …\n     |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     |          SQL Server Reporting Services            BODY {FONT-FAMILY:'Segoe UI',Tahoma,Verdana,sans-serif;\n     | FONT-WEIGHT:normal; FONT-SIZE: 10pt; COLOR:black}    H1 {FONT-FAMILY:'Segoe UI',Tahoma,Verdana,sans-serif;\n     | FONT-WEIGHT:700; FONT-SIZE:15pt}    LI {FONT-FAMILY:'Segoe UI',Tahoma,Verdana,sans-serif; FONT-WEIGHT:normal;\n     | FONT-SIZE:10pt; DISPLAY:inline}    .ProductInfo {FONT-FAMILY:'Segoe UI',Tahoma,Verdana,sans-serif;\n     | FONT-WEIGHT:bold; FONT-SIZE: 10pt; COLOR:gray}    A:link {FONT-SIZE: 10pt; FONT-FAMILY:'Segoe\n     | UI',Tahoma,Verdana,sans-serif; COLOR:#3366CC; TEXT-DECORATION:none}    A:hover {FONT-SIZE: 10pt;\n     | FONT-FAMILY:'Segoe UI',Tahoma,Verdana,sans-serif; COLOR:#FF3300; TEXT-DECORATION:underline}    A:visited\n     | {FONT-SIZE: 10pt; FONT-FAMILY:'Segoe UI',Tahoma,Verdana,sans-serif; COLOR:#3366CC; TEXT-DECORATION:none}   \n     | A:visited:hover {FONT-SIZE: 10pt; FONT-FAMILY:'Segoe UI',Tahoma,Verdana,sans-serif; color:#FF3300;\n     | TEXT-DECORATION:underline}             Reporting Services Error       The value provided for the report\n     | parameter &#39;ShowWithOutHeader&#39; is not valid for its type. (rsReportParameterTypeMismatch) Get Online Help\n     | SQL Server Reporting Services"
+    },
+    {
+      "report": "Sales_KharidMoshtarianNesbatBeKol_Moshtary",
+      "report_path": "/PakhshReports/Sales_KharidMoshtarianNesbatBeKol_Moshtary",
+      "column_header": [
+        "تعداد جایزه"
+      ],
+      "mode": "RDL-sourced stored proc vs SSRS CSV render",
+      "status": "SKIP",
+      "reason": "No TedadJayezeh field in dataset"
+    }
+  ]
+}

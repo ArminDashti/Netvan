@@ -32,14 +32,14 @@ function Show-Help {
     Write-Host "  .\install.ps1 [--out=<path>] [--with-service] [--skip-npm] [--help]"
     Write-Host ""
     Write-Host "Parameters:" -ForegroundColor Cyan
-    Write-Host "  --out=<path>      Folder to copy built binaries into (default: .\Netvan)"
+    Write-Host "  --out=<path>      Folder to copy built binaries into (default: .\release)"
     Write-Host "  --with-service    Also build netvan-service.exe (release)"
     Write-Host "  --skip-npm        Skip npm install (use existing node_modules)"
     Write-Host "  --help            Show this help"
     Write-Host ""
     Write-Host "Examples:" -ForegroundColor Cyan
     Write-Host "  .\install.ps1"
-    Write-Host "  .\install.ps1 --out=.\Netvan"
+    Write-Host "  .\install.ps1 --out=.\release"
     Write-Host "  .\install.ps1 --with-service --skip-npm"
     Write-Host ""
     Write-Host "Output:" -ForegroundColor Cyan
@@ -108,7 +108,7 @@ if (Test-HasFlag -ArgList $RawArgs -Name "--help") {
     exit 0
 }
 
-$OutDir = Get-ArgValue -ArgList $RawArgs -Name "--out" -Default (Join-Path $Root "Netvan")
+$OutDir = Get-ArgValue -ArgList $RawArgs -Name "--out" -Default (Join-Path $Root "release")
 $WithService = Test-HasFlag -ArgList $RawArgs -Name "--with-service"
 $SkipNpm = Test-HasFlag -ArgList $RawArgs -Name "--skip-npm"
 
